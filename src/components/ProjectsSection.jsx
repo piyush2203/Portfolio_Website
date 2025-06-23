@@ -8,8 +8,8 @@ const projects = [
       "An AI-powered SaaS platform offering career guidance, skill assessments, and resume building with smart analytics.",
     image: "/projects/AI_Proejct.png", // Update with your actual image path
     tags: ["React", "TailwindCSS", "Supabase", "Redux", "AI", "Node.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://ai-career-coach-bay.vercel.app/",
+    githubUrl: "https://github.com/piyush2203/AI-Career-Coach",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
       "A dynamic movie review and recommendation platform using TMDB API, with sleek UI and personalized discovery experience.",
     image: "/projects/movie.png", 
     tags: ["React", "Redux", "TailwindCSS", "TMDB API", "Vercel"],
-    demoUrl: "#", 
-    githubUrl: "#", 
+    demoUrl: "https://pg-filmybook.vercel.app/", 
+    githubUrl: "https://github.com/piyush2203/MovieBook-PGFB", 
   },
 
   {
@@ -36,8 +36,8 @@ const projects = [
     "Socket.IO",
     "Shadcn UI"
   ],
-  demoUrl: "#",      // add your live demo link
-  githubUrl: "#",    // add your GitHub repo link
+  demoUrl: "https://weavoo.onrender.com/login",      // add your live demo link
+  githubUrl: "https://github.com/piyush2203/Weavoo-Social-Media-App--MERN",    // add your GitHub repo link
 },
 
   {
@@ -47,8 +47,8 @@ const projects = [
     description:
       "Developed and published a Chrome extension on the Chrome Web Store that summarizes web content using AI, leveraging JavaScript, Chrome APIs, and a responsive popup UI.",
     tags: ["HTML", "CSS", "Javascript", "Gemini Flash Api"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "",
+    githubUrl: "https://github.com/piyush2203/Chrome-Extension---Ai-Code-Summary",
   },
   {
     id: 5,
@@ -57,8 +57,8 @@ const projects = [
     description:
       "Built a high-fidelity clone of Lazarev.agency using HTML, CSS, JavaScript, and GSAP with smooth animations, scroll effects, and responsive design.",
     tags: ["HTML", "CSS", "Javascript", "GSAP Animation"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://lazarev-tau.vercel.app/",
+    githubUrl: "https://github.com/piyush2203/Lazarev-Animated-Website",
   },
   {
     id: 5,
@@ -68,8 +68,8 @@ const projects = [
       "Built a responsive YouTube clone using React and Tailwind CSS, featuring video playback, like/comment functionality, watch history page, and a clean, modern user interface."
 ,
     tags: ["HTML", "Tailwind CSS", "Javascript", "ReactJs"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://devtube-black.vercel.app/watch/7807",
+    githubUrl: "https://github.com/piyush2203/Devtube-YoutubeFrontend",
   },
 ];
 
