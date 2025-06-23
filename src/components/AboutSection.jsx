@@ -12,11 +12,11 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Full-Stack Developer | MERN Specialist | Tech Innovator
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              With over 2 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
@@ -38,7 +38,7 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
@@ -50,10 +50,11 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                  <h4 className="font-semibold text-lg">Backend Development</h4>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    Building secure and scalable server-side applications using
+                    Node.js, Express.js, MongoDB, Prisma, and RESTful APIs with
+                    real-time integrations.
                   </p>
                 </div>
               </div>
@@ -64,10 +65,13 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                  <h4 className="font-semibold text-lg">
+                    Frontend Development
+                  </h4>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    Building modern, responsive, and dynamic user interfaces
+                    using ReactJS, Next.js, Tailwind CSS, and animations with
+                    GSAP.
                   </p>
                 </div>
               </div>
@@ -79,10 +83,13 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                  <h4 className="font-semibold text-lg">
+                    Tech Leadership & Coordination
+                  </h4>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    Coordinating teams, managing campus programs, and leading
+                    technical projects with strong communication, teamwork, and
+                    agile practices.
                   </p>
                 </div>
               </div>

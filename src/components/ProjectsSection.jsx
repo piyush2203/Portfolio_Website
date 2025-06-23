@@ -3,30 +3,71 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "SensAI – AI Career Coach",
+    description:
+      "An AI-powered SaaS platform offering career guidance, skill assessments, and resume building with smart analytics.",
+    image: "/projects/AI_Proejct.png", // Update with your actual image path
+    tags: ["React", "TailwindCSS", "Supabase", "Redux", "AI", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "PG-FilmyBook – Movie Review App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A dynamic movie review and recommendation platform using TMDB API, with sleek UI and personalized discovery experience.",
+    image: "/projects/movie.png", 
+    tags: ["React", "Redux", "TailwindCSS", "TMDB API", "Vercel"],
+    demoUrl: "#", 
+    githubUrl: "#", 
+  },
+
+  {
+  id: 3,
+  title: "Weavoo – Social Media App",
+  description:
+    "A feature-rich MERN social platform featuring posts, likes, comments, profile management, plus real-time chat and notifications.",
+  image: "/projects/social.png", // replace with your actual image path
+  tags: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.IO",
+    "Shadcn UI"
+  ],
+  demoUrl: "#",      // add your live demo link
+  githubUrl: "#",    // add your GitHub repo link
+},
+
+  {
+    id: 4,
+    title: "Ai Summarizer - Chrome Extension",
+    image: "/projects/Project4.png",
+    description:
+      "Developed and published a Chrome extension on the Chrome Web Store that summarizes web content using AI, leveraging JavaScript, Chrome APIs, and a responsive popup UI.",
+    tags: ["HTML", "CSS", "Javascript", "Gemini Flash Api"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
-    id: 3,
-    title: "E-commerce Platform",
+    id: 5,
+    title: "Lazarev Animation Website",
+    image: "/projects/lazarev.png",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Built a high-fidelity clone of Lazarev.agency using HTML, CSS, JavaScript, and GSAP with smooth animations, scroll effects, and responsive design.",
+    tags: ["HTML", "CSS", "Javascript", "GSAP Animation"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Devtube – YouTube Clone",
+    image: "/projects/devtube.png",
+    description:
+      "Built a responsive YouTube clone using React and Tailwind CSS, featuring video playback, like/comment functionality, watch history page, and a clean, modern user interface."
+,
+    tags: ["HTML", "Tailwind CSS", "Javascript", "ReactJs"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -63,6 +104,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
+                    // eslint-disable-next-line react/jsx-key
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
@@ -100,7 +142,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/piyush2203"
           >
             Check My Github <ArrowRight size={16} />
           </a>

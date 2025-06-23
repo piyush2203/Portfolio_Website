@@ -41,7 +41,7 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="flex justify-center gap-12 ">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
@@ -53,13 +53,13 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="flex flex-col items-start">
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:piyushgupta21506@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    piyushgupta21506@gmail.com
                   </a>
                 </div>
               </div>
@@ -67,13 +67,13 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="flex flex-col items-start">
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:9264970118"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 926497-0118
                   </a>
                 </div>
               </div>
@@ -81,10 +81,10 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="flex flex-col items-start">
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Ghaziabad, Uttar Pradesh
                   </a>
                 </div>
               </div>
@@ -93,23 +93,21 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/piyush-gupta-b8820a193/" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/piyush2203" target="_blank">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/piyush._gupta_/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
+                
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
@@ -180,7 +178,7 @@ export const ContactSection = () => {
                 <Send size={16} />
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
